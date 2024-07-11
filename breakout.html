@@ -32,7 +32,7 @@ layout: default
     <h3>开始分组话题讨论</h3>
     <ul>
         <li>提醒与会者知晓参会政策：《<a href="https://www.w3.org/Consortium/cepc/">职业行为准则</a>》、《<a href="https://www.w3.org/policies/antitrust/">反垄断与竞争指南</a>》、<a href="https://www.w3.org/2024/09/TPAC/health.html">TPAC参会安全须知</a>、<a href="https://github.com/w3c/tpac-breakouts/wiki/Policies#recording-sessions">话题现场录制政策</a></li>
-         <li>确定会议记录人员（不要求是W3C团队成员）：
+         <li>确定会议记录员（不要求是W3C团队成员）：
         <ul>
             <li>记录员应该（但非必须）在此话题的IRC频道记录会议内容（参见<a href="https://bocoup.com/blog/how-to-scribe-at-tpac">如何记录会议</a>、<a href="https://www.w3.org/Project/IRC/">如何使用IRC</a>）</li>
             <li>记录与会者名单（与会者在IRC频道输入present+ name_surname 将参会姓名添加到与会名单）</li>
@@ -45,6 +45,31 @@ layout: default
             <li>话题的背景信息，方便与会者知悉讨论内容</li>
         </ul></li>
     </ul>
+  
+    <h3>录制分组话题讨论</h3>
+    <p>鉴于部分参会者无法（或不希望）参加被录制的话题，我们为此制定了以下政策：</p>
+       <ul>
+           <li>通常情况下：
+        <ul>
+            <li>仅录制演讲环节，不录制讨论环节</li>
+            <li>主持人须在征得讲者本人同意后方可录制</li>
+            <li>若有（现场或远程）与会者对录制提出异议，则不能进行录制</li>
+            <li>若录制中包含讨论环节，则W3C会务团队可能选择剪辑或不予发布录制内容</li>
+        </ul>
+        </li>
+           <li>当话题的形式为“先演讲+后讨论”：
+           <ul>
+               <li>仅录制演讲环节</li>
+               <li>主持人应要求在演讲环节结束后再进行讨论环节</li>
+               <li>主持人应明确表示：在演讲过程中的澄清性问题将被录音，并建议不希望被录音的人在录音停止前不要提出问题。</li>
+           </ul></li>
+            <li>当话题更具互动性，即演讲与讨论同时进行：
+           <ul>
+               <li>则不应录制该话题</li>
+           </ul></li>
+       </ul>
+<p>获取录制材料：为改善所录音视频的可访问性（详见<a href="https://www.w3.org/WAI/media/av/">音视频无障碍指南</a>），话题主持人应使用Zoom提供的录制功能，它包括自动生成的字幕。W3C会务团队将于会后把录制内容原样发布于w3.org（附带字幕和脚本），并根据需要与相应话题的主持人一起改善字幕质量。若主持人选择其他的录制方式（非会议提供的Zoom），则须向会务团队提供所录制的音视频及字幕材料。</p>
+    
     <h3>结束分组话题讨论</h3>
     <ul>
         <li>对话题讨论进行总结：
@@ -56,14 +81,14 @@ layout: default
         <li>（在IRC频道输入rrsagent, make minutes）保存会议记录：若话题本身对公众开放，则会议记录也会被公开；如话题本身未对公众开放，则会议记录仅限W3C会员获取。</li>
     </ul>
 
-    <h3>分组话题讨论结束之后</h3></h3>
+    <h3>分组话题讨论结束之后</h3>
     <ul>
-        <li>W3C会务团队将由IRC生成的会议纪要链接添加到相应话题，若您未使用IRC，请将自动生成的纪要链接替换为正确链接。</li>
+        <li>W3C会务团队将由IRC生成的会议纪要链接添加到相应话题，若您未使用IRC，请将由IRC自动生成的纪要链接替换为正确链接。</li>
         <li>若希望提供会议总结及接下来的计划（如在哪里进行后续讨论），请通过github issue comments提交评论。</li>
         <li>进一步参阅<a href="https://github.com/w3c/tpac-breakouts/wiki/Policies#session-deliverables">分组话题内容分享政策</a>：
         <ul>
             <li>话题组织者确保以文字形式记录会议要点；</li>
-            <li>话题组织者确保生成会议记录。TPAC会务团队将与话题组织者协调将会议记录链接到相应话题；</li>
+            <li>话题组织者确保生成会议记录，TPAC会务团队将与话题组织者协调将会议记录链接到相应话题；</li>
             <li>W3C可能在w3.org上为会议记录创建副本，用于持久访问。</li>
         </ul>
         </li>
@@ -74,7 +99,7 @@ layout: default
     <p>在创建了一个新话题之后，你可能看到该话题被添加了一些标签。这些标签仅供TPAC会议策划者使用，与会者无法参与设置。策划者遵循以下规则使用这些标签：</p>
     <ul>
         <li>"Session" 标签意味着此条目为一个TPAC自由分组话题（而非普通的 Github issue）</li>
-        <li>使用标签将话题分配到一或多个由 W3C 团队的会议策划者建立的 tracks</li>
+        <li>使用标签将话题分配到一或多个由 W3C 团队的会议策划者建立的tracks</li>
         <li>我们通过工具来验证分组话题数据并检测时间安排冲突，所生成的错误和警告均通过相应标签来体现</li>
     </ul>
     
