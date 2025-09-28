@@ -793,7 +793,7 @@ details span.added {
         }
       @media (min-width: 33em) {
       .buttons > *, .badges > * {
-	width: 29.5;
+	width: 29.5%;
 	width: calc(33.3% - 2rem);
       }
       }
